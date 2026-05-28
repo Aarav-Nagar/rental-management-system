@@ -1,0 +1,20 @@
+# Compiled Java classes
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Build
+bin/
+out/
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JavaFX
+module-info.class
