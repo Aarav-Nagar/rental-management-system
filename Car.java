@@ -1,3 +1,15 @@
+/**
+ * Car rental implementation extending the Rental base class.
+ * 
+ * Represents a vehicle available for rental with detailed specifications.
+ * Tracks vehicle identification information and rental pricing.
+ * 
+ * Properties tracked:
+ * - Make (manufacturer)
+ * - Model (vehicle type)
+ * - Year (model year)
+ * - License Plate (vehicle registration)
+ */
 public class Car extends Rental {
     private String make;
     private String model;
@@ -18,6 +30,11 @@ public class Car extends Rental {
         return "Car";
     }
     
+    /**
+     * Displays detailed information about the car rental.
+     * Includes make, model, year, license plate, pricing, and availability status.
+     * Used for console output and detailed views.
+     */
     @Override
     public void displayDetails() {
         System.out.println("=== Car Details ===");

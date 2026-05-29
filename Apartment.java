@@ -1,3 +1,15 @@
+/**
+ * Apartment rental implementation extending the Rental base class.
+ * 
+ * Represents a residential property available for rental.
+ * Tracks detailed property information and rental pricing.
+ * 
+ * Properties tracked:
+ * - Address (location)
+ * - Bedrooms (number of bedrooms)
+ * - Bathrooms (number of bathrooms)
+ * - Square Feet (total living area)
+ */
 public class Apartment extends Rental {
     private int bedrooms;
     private int bathrooms;
@@ -18,6 +30,11 @@ public class Apartment extends Rental {
         return "Apartment";
     }
     
+    /**
+     * Displays detailed information about the apartment rental.
+     * Includes address, bedrooms, bathrooms, square footage, pricing, and availability status.
+     * Used for console output and detailed views.
+     */
     @Override
     public void displayDetails() {
         System.out.println("=== Apartment Details ===");
