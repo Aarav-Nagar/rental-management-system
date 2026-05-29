@@ -4,6 +4,7 @@ A JavaFX-based rental management system for cars and apartments, demonstrating i
 
 ## Features
 
+Here are some of the features which are in this program:
 - Manage car and apartment rentals
 - Book rentals with customer name and duration
 - Return rentals to make them available again
@@ -56,7 +57,8 @@ java RentalApp
 - JavaFX GUI with multiple panes
 - Dialog windows
 - Date/Time handling
-
+- UI/UX
+- 
 ## License
 
 MIT
